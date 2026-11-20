@@ -17,8 +17,7 @@ const config = {
 for (const arg of process.argv.slice(2)) {
   if (arg.startsWith('--requests=')) {
     config.requests = parseInt(arg.split('=')[1], 10);
-  } else if (arg.startsWith('--url=')) {
-    config.url = arg.split('=')[1];
+  } else if (arg.startsWith('--url=')) {config.url = decodeURIComponent(arg.split('=')[1]);
   } else if (arg.startsWith('--buffer-size=')) {
     config.bufferSize = parseInt(arg.split('=')[1], 10);
   } else if (arg === '--output=json') {
