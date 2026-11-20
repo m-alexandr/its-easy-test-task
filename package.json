@@ -1,0 +1,16 @@
+{
+  "name": "internet-speed-measure",
+  "license": "MIT",
+  "author": "Alexandr Mazharov a.mahzarov@gmail.com",
+  "version": "1.0.0",
+  "description": "Простой консольный инструмент для измерения скорости интернет-соединения. Выполняет серию последовательных запросов к указанному ресурсу и вычисляет среднюю скорость загрузки.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "type": "module",
+  "dependencies": {
+    "fetch-blob": "^4.0.0"
+  }
+}
