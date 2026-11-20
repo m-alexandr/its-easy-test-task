@@ -4,7 +4,7 @@ import https from 'node:https';
 
 const TOTAL_REQUESTS = 10;
 const DEFAULT_URL =
-    'https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%B9%D0%BB:Snake_River_(5mb).jpg';
+    'https://raw.githubusercontent.com/m-alexandr/its-easy-test-task/refs/heads/main/painting-mountain-lake-with-mountain-background.jpg';
 
 const config = {
   requests: TOTAL_REQUESTS,
